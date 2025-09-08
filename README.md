@@ -154,7 +154,7 @@ Example: Robot Assembly Demo(Assets/Playground/Playground.unity)：
 
    - Typically includes xx.urdf and a meshes/ folder. 
     
-  - Paths inside .urdf should use package://meshes/xxx.STL.
+   - Paths inside .urdf should use package://meshes/xxx.STL.
     
    - Lock joints outside the legs if possible.
 
