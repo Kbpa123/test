@@ -116,7 +116,7 @@ Each demo scene can also be opened directly without using the main menu.
 
     
 
-7.Verify installation：
+7. Verify installation：
       `mlagents-learn --help`
 
 ### III. Training Robots
