@@ -184,7 +184,7 @@ Example: Robot Assembly Demo(Assets/Playground/Playground.unity)：
 
 10. Once stepping motion is correct, train with ML-Agents as in Section IV.
 
-- Example: Biped robots often require only ~400k steps (2–5 minutes).
+   - Example: Biped robots often require only ~400k steps (2–5 minutes).
 
 **👉 For more URDF models,check:https://github.com/linqi-ye/robot-universe**
 
