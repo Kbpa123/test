@@ -152,11 +152,11 @@ Example: Robot Assembly Demo(Assets/Playground/Playground.unity)：
 
 1. Place robot URDF files under Assets/urdf/.
 
-- Typically includes xx.urdf and a meshes/ folder. 
+   - Typically includes xx.urdf and a meshes/ folder. 
     
-- Paths inside .urdf should use package://meshes/xxx.STL.
+  - Paths inside .urdf should use package://meshes/xxx.STL.
     
-- Lock joints outside the legs if possible.
+   - Lock joints outside the legs if possible.
 
 
 2. Open the empty template scene MyRobot.unity.     
@@ -171,15 +171,15 @@ Example: Robot Assembly Demo(Assets/Playground/Playground.unity)：
 
 8. Configure parameters in Inspector:
 
-- RobotType (e.g., Biped).
+   - RobotType (e.g., Biped).
 
-- Target Motion (default Walk for bipeds).
+   - Target Motion (default Walk for bipeds).
 
-- Behaviour Parameters (observation/action dimensions).
+   - Behaviour Parameters (observation/action dimensions).
 
 9. Test feedforward motion: check Fixbody → run Unity → robot should step in place.
 
-- If mismatched, adjust feedforward mapping in GewuAgent.cs (search for "change here").
+   - If mismatched, adjust feedforward mapping in GewuAgent.cs (search for "change here").
 
 
 10. Once stepping motion is correct, train with ML-Agents as in Section IV.
